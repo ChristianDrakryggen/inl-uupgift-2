@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 10px;
+}
+#main-text-container {
+  border: 5px solid red;
+  padding: 10px;
+  height: 50%;
+  display: flex;
+  width: 100%;
+}
+.text-wrapper {
+  border: 5px solid blue;
+  padding: 10px;
+  margin: 5px;
+}
+.left {
+  width: 60%;
+}
+.right {
+  width: 40%;
+}
+.main-page-image {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  border: 5px solid blue;
+}
